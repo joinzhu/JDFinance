@@ -1,16 +1,18 @@
 <template lang="html">
     <div>
-      <Header></Header>
+      <Heador></Heador>
       <Hslider></Hslider>
     </div>
 </template>
 
 <script>
-import Header from "../../components/home/header.vue"
+import Heador from "../../components/home/header.vue"
 import Hslider from "../../components/home/hslider.vue"
 export default {
-  Header,
-  Hslider
+  components:{
+    Heador,
+    Hslider
+  }
 }
 </script>
 

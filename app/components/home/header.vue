@@ -1,12 +1,8 @@
 <template lang="html">
   <header :class="$style.header">
-    <div>
-      <btn :class="$style.toBackBtn"></btn>
-    </div>
+    <btn :class="$style.toBackBtn"></btn>
     <span :class="$style.title">京东金融</span>
-    <div>
-      <btn :class="$style.moreBtn"></btn>
-    </div>
+    <btn :class="$style.moreBtn"></btn>
   </header>
 </template>
 
