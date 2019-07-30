@@ -23,10 +23,7 @@ module.exports = env => {
       new ExtractTextPlugin("style.css", {ignoreOrder: true})
     )
   }
-  return {
-    entry: {
-      app: './app/js/main.js'
-    },
+  return ['./app/js/viewport.js','./app/js/main.js'],
     devServer: {
       contentBase: './dist',
       hot: true,
